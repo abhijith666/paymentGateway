@@ -16,12 +16,13 @@
 
 <section >
 <?php require('header.php') ?>
-<div class="slider">
-  <h1 class="slider_text-1">Donate</h1>
-  <h2 class="slider_text-2">4 a better world</h2>
-<div class="payment_button" >
-       
-<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_I7WqWYlrD4na5T/view" data-text="Donate" data-color="#528FF0" data-size="large">
+<div class="banner">
+           <p class="primary">DONATE</p>
+           <p class="secondary">FOR A BETTER WORLD</p>
+
+</div>
+  <section class="first_section">
+  <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_I7WqWYlrD4na5T/view" data-text="Donate" data-color="#1f4590" data-size="large">
   <script>
     (function(){
       var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
@@ -30,13 +31,32 @@
       rzp && rzp.init && rzp.init()}})();
   </script>
 </div>
-    
-   
-</div>
-  
-</div>
+  </section>
+  <div class="how_it_work">
+        <p>How it work</p>
+  </div>
+
+  <section class="simple_discription">
+        <div class="icon_disc">
+        <img src="https://img.icons8.com/color/48/000000/community-grants.png"/>
+        <p class="icon_disc_p1">Community Collection</p>
+        <p class="icon_disc_p2">Be the part of an inspiring group,changing lives of a number of people.</p>
+        </div>
+        <div class="icon_disc">
+        <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/48/000000/external-donation-economy-and-currency-justicon-lineal-color-justicon.png"/>
+        <p class="icon_disc_p1">100% donation to poor</p>
+        <p class="icon_disc_p2">We ensure that every dontion reaches the right hand</p>
+        
+        </div>
+        <div class="icon_disc">
+        <img src="https://img.icons8.com/external-wanicon-flat-wanicon/64/000000/external-saving-money-currency-wanicon-flat-wanicon.png"/>
+        <p class="icon_disc_p1">Its Affordable</p>
+        <p class="icon_disc_p2">No matter what you give,every donation will make a change</p>
+        </div>
+  </section>
+
 <section class="second_section">
-  <h1 style="text-align:center;">Wellcome to our Charity</h1>
+  <h1 style="text-align:center;">About our Charity</h1>
   <div class="first_discription"><p>When a child receives an education, their future is brighter and their dreams become a possibility.
      When a child goes to school, he will no longer need to work in a quarry or beg in the streets for food.
       An educated child will be able to find employment to secure a future for them and their family, a chance to earn a sustainable income, helping them to break the poverty cycle.</p></div>
@@ -48,11 +68,7 @@
 
 
 
-<section class="section_four" style="background-color:white;">
-  <h3>Giving back is always a satisfying activity, but it can be more fun if done in groups</h3>
-  <h3 style="color:red;margin-top:30px;">BECOME A VOLUNTEER</h3>
-  <div class="button_div"><button class="btn_vol"><span>   VOLUNTEER   </span></button></div>
-</section>
+
 <section>
 <?php require('footer.php') ?>
 </section>

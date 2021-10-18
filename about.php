@@ -23,7 +23,7 @@ body{
     z-index: 100;
 }
 section {
-      background: #DFC2F2;
+      
      
       
       width: 100%;
@@ -40,6 +40,14 @@ section {
 	height: 550px;
 	width: 900px;	
 }
+@media (max-width:901px){
+	#container{
+		width: 95%;
+		margin:auto;
+		margin-top:100px;
+	}
+}
+
 
 
 
@@ -89,9 +97,9 @@ font-family: 'EB Garamond', serif;
 	
 }
 .control{
-	position: absolute;
-	bottom: 20%;
-	left: 22.8%;
+	
+	
+	align-item:center;
 	
 }
 .btn {
@@ -138,6 +146,25 @@ font-family: 'EB Garamond', serif;
 .product-image:hover .info{transform: translateX(0);}
 .product-image:hover img {transition: all 0.3s ease-out;}
 .product-image:hover img {transform: scale(1.2, 1.2);}
+
+
+@media (max-width:750px){
+	#container{
+		width: 95%;
+		margin:auto;
+		margin-top:100px;
+	}
+	.product-image{
+		display: none;
+	}
+.product-details {
+	width:100%;
+}
+.control{
+	diplay:flex;
+	align-item:center;
+}
+}
     </style>
 </head>
 <body>
@@ -157,7 +184,7 @@ font-family: 'EB Garamond', serif;
 		
 <div class="control">
 	
-<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_I7WqWYlrD4na5T/view" data-text="Donate" data-color="#528FF0" data-size="large">
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_I7WqWYlrD4na5T/view" data-text="Donate" data-color="#1f4590" data-size="large">
   <script>
     (function(){
       var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
